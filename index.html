@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Bubbles Цайны Газар</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.svg" alt="Sweet Bubbles Logo" class="logo-img">
+        </div>
+        <div class="nav-container">
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Нүүр</a></li>
+                <li><a href="#menu" class="nav-link">Меню</a></li>
+                <li><a href="#about" class="nav-link">Бидний тухай</a></li>
+                <li><a href="#contact" class="nav-link">Холбоо барих</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="tel:+97688019223" class="nav-phone">
+                    <i class="fas fa-phone"></i>
+                    <span>+976 88019223</span>
+                </a>
+                <a href="#contact" class="nav-location">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Байршил</span>
+                </a>
+            </div>
+        </div>
+        <button class="mobile-menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Таны дуртай Bubble Tea Cafe</h1>
+                <p class="hero-subtitle">Шинэ сэтгэл хөдөлгөм амт, шинэ сэтгэл хөдөлгөм мэдрэмж</p>
+                <div class="hero-features">
+                    <div class="feature">
+                        <i class="fas fa-leaf"></i>
+                        <span>Шинэ орц</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-heart"></i>
+                        <span>Хайртай</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-star"></i>
+                        <span>Шилдэг чанар</span>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#menu" class="cta-button primary">Меню харах</a>
+                    <a href="#contact" class="cta-button secondary">Байршил</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#menu" class="scroll-down">
+                <span>Доош гүйлгэх</span>
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <h2>✨ Манай Меню ✨</h2>
+        <div class="menu-categories">
+            <h3>Сүүтэй Цай</h3>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="images/Classic milk tea.jpg" alt="Энгийн Сүүтэй Цай">
+                    </div>
+                    <h3>Энгийн Сүүтэй Цай</h3>
+                    <p class="description">Манай онцлох хар цай, сүү, шарласан бөөрөнхий шигшүүртэй</p>
+                    <p class="price">₮6,500</p>
+                    <button class="order-button">Захиалах</button>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="images/Brown sugar.jpg" alt="Бор Шихэртэй Бобо">
+                    </div>
+                    <h3>Бор Шихэртэй Бобо</h3>
+                    <p class="description">Шинэ сүү, бор шихрийн сироп, карамелжуулсан бобо</p>
+                    <p class="price">₮7,200</p>
+                    <button class="order-button">Захиалах</button>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="images/Taro milk tea.webp" alt="Таро Сүүтэй Цай">
+                    </div>
+                    <h3>Таро Сүүтэй Цай</h3>
+                    <p class="description">Амтат таро үндэс, сүүтэй хольж бобо дээрээс нь хийсэн</p>
+                    <p class="price">₮7,000</p>
+                    <button class="order-button">Захиалах</button>
+                </div>
+            </div>
+
+            <h3>Онцгой Ундаанууд</h3>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="images/Matcha latte.jpg" alt="Матча Латте">
+                    </div>
+                    <h3>Матча Латте</h3>
+                    <p class="description">Өндөр чанарын япон матча ногоон цай, сүүтэй</p>
+                    <p class="price">₮7,500</p>
+                    <button class="order-button">Захиалах</button>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="images/Strawberry cheesecake.jpg" alt="Гүзээлзгэнэтэй Бяслагтай Бялуу">
+                    </div>
+                    <h3>Гүзээлзгэнэтэй Бяслагтай Бялуу</h3>
+                    <p class="description">Кремтэй бяслагтай бялууны амт, шинэ гүзээлзгэнэтэй</p>
+                    <p class="price">₮7,800</p>
+                    <button class="order-button">Захиалах</button>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="images/Mango smoothie.jpg" alt="Манго Смүүти">
+                    </div>
+                    <h3>Манго Смүүти</h3>
+                    <p class="description">Шинэ манго, йогурттай хольж манго желэтэй</p>
+                    <p class="price">₮7,500</p>
+                    <button class="order-button">Захиалах</button>
+                </div>
+            </div>
+
+            <h3>Нэмэлт Орцууд</h3>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="images/Pearls.jpg" alt="Бобо Шарик">
+                    </div>
+                    <h3>Бобо Шарик</h3>
+                    <p class="description">Зөөлөн тапиока бөөрөнхийнүүд</p>
+                    <p class="price">₮1,500</p>
+                    <button class="order-button">Нэмэх</button>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="images/z4829318477459_5e39a57141c30bbd7046e0e0d3f8b1a3_1000x.webp" alt="Желе">
+                    </div>
+                    <h3>Желе</h3>
+                    <p class="description">Манго, личи эсвэл өнгөт желе сонголттой</p>
+                    <p class="price">₮1,500</p>
+                    <button class="order-button">Нэмэх</button>
+                </div>
+                <div class="menu-item">
+                    <div class="menu-item-image">
+                        <img src="images/Pudding.webp" alt="Пудинг">
+                    </div>
+                    <h3>Пудинг</h3>
+                    <p class="description">Өндөгтэй кремтэй пудинг</p>
+                    <p class="price">₮1,500</p>
+                    <button class="order-button">Нэмэх</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <div class="about-image">
+                <img src="images/about us.jpg" alt="About Sweet Bubbles">
+            </div>
+            <div class="about-text">
+                <h2>Бидний тухай</h2>
+                <p>Бид Улаанбаатар хотод жинхэнэ bubble tea-г танилцуулахыг зорьж байна. Манай бүх цай дээд зэргийн орцоор хийгдэж, хайраар түгээгддэг.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>📸 Our Gallery</h2>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="images/Brown-Sugar-Boba-2-IG-Feed.jpg" alt="Brown Sugar Bubble Tea">
+                <div class="gallery-overlay">
+                    <p>Brown Sugar Boba</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/iced-matcha-latte-featured.jpg" alt="Matcha Latte">
+                <div class="gallery-overlay">
+                    <p>Matcha Latte</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/Mango-Smoothie3.jpg" alt="Mango Smoothie">
+                <div class="gallery-overlay">
+                    <p>Mango Smoothie</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/Strawberry-cheesecake-recipe-6-of-8.jpg" alt="Strawberry Cheesecake">
+                <div class="gallery-overlay">
+                    <p>Strawberry Cheesecake</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/136A0988-735x1103.webp" alt="Classic Milk Tea">
+                <div class="gallery-overlay">
+                    <p>Classic Milk Tea</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/Make-Your-Own-Tapioca-Pearls-338x450.jpg" alt="Fresh Tapioca Pearls">
+                <div class="gallery-overlay">
+                    <p>Fresh Tapioca Pearls</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>📍 Манай Хаяг</h2>
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="contact-text">
+                            <h3>Байршил</h3>
+                            <p>Москвагийн гудамж, Улаанбаатар</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div class="contact-text">
+                            <h3>Ажиллах цаг</h3>
+                            <p>Өдөр бүр: 11:00 - 20:00</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div class="contact-text">
+                            <h3>Утас</h3>
+                            <p>+976 88019223</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2673.5851809386747!2d106.827284!3d47.913394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d96ecd3e2ef5a5b%3A0xe844a3cd4af0cc10!2sMoskow%20Apart%20District%2C%20SHD%20-%2029%20khoroo%2C%20Ulaanbaatar%2018070!5e0!3m2!1sen!2sus!4v1708701234567!5m2!1sen!2sus"
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                <a href="https://www.google.com/maps/place/47%C2%B054'48.2%22N+106%C2%B049'38.2%22E/@47.913394,106.827284,18.5z/data=!4m13!1m8!3m7!1s0x5d96ecd3e2ef5a5b:0xe844a3cd4af0cc10!2sMoskow+Apart+District,+SHD+-+29+khoroo,+Ulaanbaatar+18070!3b1!8m2!3d47.9125528!4d106.8282151!16s%2Fg%2F11bvtcng74!3m3!8m2!3d47.913394!4d106.827284?entry=ttu&g_ep=EgoyMDI1MDQwOS4wIKXMDSoASAFQAw%3D%3D" class="directions-button" target="_blank">
+                    <i class="fas fa-directions"></i> Чиглүүлэх
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <img src="logo.svg" alt="Sweet Bubbles Logo" class="footer-logo-img">
+                    <p class="footer-description">Уламжлалт болон орчин үеийн амтыг нэгтгэсэн шилдэг амт</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                        <a href="#" class="social-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Холбоосууд</h3>
+                        <ul>
+                            <li><a href="#home">Нүүр</a></li>
+                            <li><a href="#menu">Меню</a></li>
+                            <li><a href="#about">Бидний тухай</a></li>
+                            <li><a href="#contact">Холбоо барих</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Холбоо Барих</h3>
+                        <ul>
+                            <li><i class="fas fa-map-marker-alt"></i> Москвагийн гудамж, Улаанбаатар</li>
+                            <li><i class="fas fa-phone"></i> +976 88019223</li>
+                            <li><i class="fas fa-envelope"></i> info@sweetbubbles.mn</li>
+                            <li><i class="fas fa-clock"></i> 11:00 - 20:00 (Өдөр бүр)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Мэдээлэл Авах</h3>
+                    <p>Шинэ амт болон урамшууллын талаар мэдээлэл авахыг хүсвэл бүртгүүлнэ үү:</p>
+                    <form class="newsletter-form">
+                        <div class="input-group">
+                            <input type="email" class="newsletter-input" placeholder="Имэйл хаяг" required>
+                            <button type="submit" class="newsletter-button">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2024 Sweet Bubbles Цайны Газар. Бүх эрх хуулиар хамгаалагдсан.</p>
+                <div class="footer-legal">
+                    <a href="#">Нууцлалын бодлого</a>
+                    <a href="#">Үйлчилгээний нөхцөл</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

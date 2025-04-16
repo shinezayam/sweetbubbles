@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="280" height="60" viewBox="0 0 280 60" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background Circle -->
+    <circle cx="30" cy="30" r="25" fill="#FF6B6B" opacity="0.1"/>
+    
+    <!-- Bubble Tea Cup -->
+    <path d="M20 40 L40 40 L45 35 L15 35 Z" fill="#FF6B6B"/>
+    <path d="M15 35 L45 35 L40 20 L20 20 Z" fill="#FF6B6B"/>
+    <path d="M20 20 L40 20 L35 15 L25 15 Z" fill="#FF6B6B"/>
+    
+    <!-- Bubbles -->
+    <circle cx="25" cy="25" r="3" fill="#FFFFFF"/>
+    <circle cx="35" cy="25" r="3" fill="#FFFFFF"/>
+    <circle cx="30" cy="30" r="3" fill="#FFFFFF"/>
+    
+    <!-- Straw -->
+    <path d="M30 15 L30 5" stroke="#FFFFFF" stroke-width="2"/>
+    <path d="M30 5 L35 0" stroke="#FFFFFF" stroke-width="2"/>
+    
+    <!-- Text with Enhanced Contrast -->
+    <text x="65" y="38" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#1a2634">
+        Sweet Bubbles
+    </text>
+    <text x="65" y="38" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#FF6B6B">
+        Sweet Bubbles
+    </text>
+</svg> 
